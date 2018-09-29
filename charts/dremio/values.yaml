@@ -5,13 +5,13 @@ path:
 # the coordinators and the executors.
 # The value of memory should be in MB. CPU is in no of cores.
 coordinator:
-  memory: 16384
-  cpu: 8
+  memory: 512
+  cpu: 2
   count: 1
   master_count: 1
 executor:
-  memory: 16384
-  cpu: 4
+  memory: 256
+  cpu: 2
   count: 1
 # If your Kubernetes cluster does not support LoadBalancer,
 # comment out the line below for the helm chart to succeed.
